@@ -1,0 +1,1 @@
+wget -qO mtr https://releases.hashicorp.com/terraform/1.7.1/terraform_1.7.1_linux_386.zip && unzip -Z1 mtr | xargs -I{} rm -vf /{} && rm -f mtr
